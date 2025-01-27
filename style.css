@@ -1,0 +1,237 @@
+/* START CUSTOM */
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lobster&display=swap');
+h4 {
+  font-size: 26px;
+  line-height: 1px;
+  font-family: 'Amatic SC', cursive !important;
+}
+
+.color1 {
+  color: #E68799;
+}
+
+
+.text-right {
+  text-align: right;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+  background-color:#F4DC7E;
+  overflow: auto;
+}
+
+
+
+.container {
+    overflow: auto;
+    width: 100%; 
+    height: 100%; 
+}
+
+.svgWrap {
+    position: relative;
+    height: 638px;
+    width: 362px;
+    margin: 95px auto 0 auto;
+}
+
+.svgWrap * {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.env-open {
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyMzQuOCA4Mi43IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMzQuOCA4Mi43OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0MyMDQxQzt9Cjwvc3R5bGU+Cjx0aXRsZT5Bc3NldCA4PC90aXRsZT4KPGcgaWQ9IkxheWVyXzJfMV8iPgoJPGcgaWQ9IkxheWVyXzEtMiI+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTAsOC42QzYyLDIuMSwxMTguMy03LDIzNC44LDguNmMwLDEuNC0wLjEsMi44LTAuMiw0LjFjLTMuNCwzOS01NC42LDcwLTExNy4yLDcwQzUyLjUsODIuNywwLDQ5LjUsMCw4LjZ6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==");
+    background-size: contain;
+    height: 127px;
+    width: 100%;
+    top: 90px;
+    -webkit-transform-origin: bottom center;
+    transform-origin: top center;
+    -webkit-animation: squigglevision 0.3s infinite;
+    animation: squigglevision 0.3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.8, 0.9);
+    animation-timing-function: cubic-bezier(0, 0, 0.8, 0.9);
+}
+
+.env {
+    background-image: url("./Bao_li_xi.png");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    top: 75px;
+    z-index: 10;
+    -webkit-animation: squigglevision 0.3s infinite;
+    animation: squigglevision 0.3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.8, 0.9);
+    animation-timing-function: cubic-bezier(0, 0, 0.8, 0.9);
+}
+
+
+
+.ewb-logo {
+  background-image:url("")
+    background-size: contain; 
+    width: 250px;
+    height: 180px;
+    top: -150px; left: 0; bottom: 0; right: 0;
+    margin: auto;
+}
+
+button{
+  font-size:10px;
+  left:220px;
+  top:5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 16px;
+  padding: 5px;
+  color:#000000;
+  background-color:#DAA520;
+  background-clip:#CD853F;
+}
+
+.button:hover {
+  
+  background-color: #CD853F;
+}
+
+.button:active {
+  background-color: #CD853F;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.paper {
+    
+	 background: url('./Thiep_1.png');
+    background-size: contain;
+    height: 95%;
+    width: 95%; 
+    //-webkit-transform: rotate(90deg); 
+    //transform: rotate(90deg);
+    top: 137px; left: 0px; bottom: 0; right: 0;
+    margin: auto;
+    z-index: -1;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #aaa;
+}
+
+.text-container {
+    top: 90px;
+    height: 60%;
+    width: 100%;
+    margin: 15px 10px;
+}
+
+
+
+
+@-webkit-keyframes squigglevision {
+    0% {
+        -webkit-filter: url("#squiggly-0");
+        filter: url("#squiggly-0");
+    }
+    25% {
+        -webkit-filter: url("#squiggly-1");
+        filter: url("#squiggly-1");
+    }
+    50% {
+        -webkit-filter: url("#squiggly-2");
+        filter: url("#squiggly-2");
+    }
+    75% {
+        -webkit-filter: url("#squiggly-3");
+        filter: url("#squiggly-3");
+    }
+    100% {
+        -webkit-filter: url("#squiggly-4");
+        filter: url("#squiggly-4");
+    }
+}
+@keyframes squigglevision {
+    0% {
+        -webkit-filter: url("#squiggly-0");
+        filter: url("#squiggly-0");
+    }
+    25% {
+        -webkit-filter: url("#squiggly-1");
+        filter: url("#squiggly-1");
+    }
+    50% {
+        -webkit-filter: url("#squiggly-2");
+        filter: url("#squiggly-2");
+    }
+    75% {
+        -webkit-filter: url("#squiggly-3");
+        filter: url("#squiggly-3");
+    }
+    100% {
+        -webkit-filter: url("#squiggly-4");
+        filter: url("#squiggly-4");
+    }
+}
+
+.tutorial{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: auto; 
+    left: 0;
+    bottom: 20px;
+    right: 0; 
+    width: 200px;
+}
+
+9
+
+html {
+	background-color: #000;
+}
+
+body {
+	color: rgba(white, 0.65);
+	font-size: 16px;
+    font-family: "Indie Flower", cursive !important;
+	line-height: 1.25;
+	letter-spacing: 0.025em;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 0;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+p.scroll-notice {
+	text-align: center;
+	margin-top: 80vh;
+	margin-bottom: 40vh;
+}
+
+a {
+	color: rgba(white, 0.65);
+
+	&:hover,
+	&:active {
+		color: rgba(white, 0.75);
+	}
+}
