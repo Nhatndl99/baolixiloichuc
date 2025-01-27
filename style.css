@@ -79,7 +79,7 @@ body {
 
 
 .ewb-logo {
-  background-image:url("")
+     background-image:url("");
     background-size: contain; 
     width: 250px;
     height: 180px;
@@ -119,8 +119,6 @@ button{
     background-size: contain;
     height: 95%;
     width: 95%; 
-    //-webkit-transform: rotate(90deg); 
-    //transform: rotate(90deg);
     top: 137px; left: 0px; bottom: 0; right: 0;
     margin: auto;
     z-index: -1;
@@ -194,7 +192,6 @@ button{
     width: 200px;
 }
 
-9
 
 html {
 	background-color: #000;
@@ -219,6 +216,7 @@ p {
   margin: 0;
   margin-bottom: 1em;
   line-height: 1.5;
+  width: 95%;
 }
 
 p.scroll-notice {
