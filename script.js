@@ -98,4 +98,4 @@ return window.requestAnimationFrame ||
             };
 })();
 
-
+window.onload = setTimeout(()=>{window.location.href = './phaohoa/index.html';}, 30000);
