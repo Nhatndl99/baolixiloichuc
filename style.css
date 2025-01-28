@@ -1,7 +1,7 @@
 /* START CUSTOM */
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC");
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN');
 h4 {
   font-size: 26px;
   line-height: 1px;
@@ -200,7 +200,7 @@ html {
 body {
 	color: rgba(white, 0.65);
 	font-size: 16px;
-    font-family: "Indie Flower", cursive !important;
+    font-family: "Playwrite VN", serif;
 	line-height: 1.25;
 	letter-spacing: 0.025em;
 }
@@ -212,7 +212,7 @@ h1 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin: 0;
   margin-bottom: 1em;
   line-height: 1.5;
